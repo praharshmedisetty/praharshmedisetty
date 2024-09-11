@@ -11,17 +11,21 @@ class About(Me):
   def __init__(self):
     super().__init__()
     self.name = "Praharsh Medisetty"
-    self.role = "Graduate Student"
-  
-  def contact(self):
+    self.role = "Graduate Student @ University at Buffalo"
+
+  def getEmail(self):
     return "praharsh2001@gmail.com"
-  
-  def getCity():
-   	return NewYork_USA()
 
   def getPortfolio():
     return "praharshmedisetty.github.io"
-   	
+
+  def getCity():
+    return NewYork_USA()
+
+  def Hobbies():
+    Hobbies = ["Gaming, Reading, Traveling"]
+    return Hobbies
+
   myTools = {
 
     "Programing Languages" : [ "Python", "C++", "C", "SAP-ABAP"],
@@ -58,10 +62,22 @@ class About(Me):
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bash_Logo_Colored.svg/2048px-Bash_Logo_Colored.svg.png" alt="bash" width="40" height="40"/>
-  
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="NodeJS" width="40" height="40"/>
+  <img src="https://www.npmjs.com/npm-avatar/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdmF0YXJVUkwiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci80NmQ4ZDAwZTE5MGJlNjQ3MDUzZjdkOTdmZDA0NzhlND9zaXplPTQ5NiZkZWZhdWx0PXJldHJvIn0.5nKe6nJhOqDvUG6NzyDo5HVNm_RiThxzGMbRgg2P0Ls" alt="NPM" width="40" height="40"/>
+  <img src="https://github.com/user-attachments/assets/843112b7-bd3b-406d-9b9f-cf8cdc9cef5e" alt="SAP" width="40" height="40"/>
+  <img src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="MongoDB" width="40" height="40"/>
+  
+  <img src="https://miro.medium.com/v2/resize:fit:1200/1*tFl-8wQUENETYLjX5mYWuA.png" alt="AWS" width="40" height="40"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn3G7aNWlBFrxvcqPJlFkdUqQ3mSxFokba9g&s" alt="Keras" width="40" height="40"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLDCEPW5BGOmBQeWUn4XINeHpnZtCEPAvmUg&s" alt="Deep Learning" width="40" height="40"/>
+  <img src="https://avatars.githubusercontent.com/u/18133?s=280&v=4" alt="Git" width="40" height="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png" alt="Linux" width="40" height="40"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR0yEHX961OEjgbqgkODTpZNyqWRMq9Fsc0A&s" alt="Pandas" width="40" height="40"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIbNSol2KPLUo_aGSrDdm3Hg_EA07AijCvG7XWb47PsAYqv8NkYDx-VAHtftGlOvUXz1o&usqp=CAU" alt="OpenCV" width="40" height="40"/>
+  <img src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" alt="ReactJS" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpff9NUZOFwwJ4D5tLweJ28vKN4iDM-XUipv-ik2xSQg&s" alt="flask" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
