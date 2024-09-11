@@ -18,19 +18,31 @@ class About(Me):
   
   def getCity():
    	return NewYork_USA()
+
+  def getPortfolio():
+    return "praharshmedisetty.github.io"
    	
   myTools = {
 
-    "ProgramingLanguages" : [ "Python", "C", "C++", "SQL",  "Java" ],
+    "Programing Languages" : [ "Python", "C++", "C", "SAP-ABAP"],
+
+    "Web Development" : [ "HTML", "CSS", "JavaScript", "Java", "NodeJS", "ReactJS", "NextJS", "React Native"],
     
-    "OtherLanguages" : [ "HTML", "CSS", "SAP-ABAP", "Bash" ],
+    "Database Technologies" : [ "MySQL", "PostgreSQL", "MongoDB", "AWS"],
     
-    "Database" : [ "MySQL", "HDFS" ],
+    "Machine Learning Algorithms" : [ "Predictive Models", "SVM", "Logistic Regression", "Deep Learning(Neural Networks)",
+                                        "Anomaly Detection", "Supervised Learning (Regression)", "Ensemble models",
+                                             "Unsupervised Learning(Clustering)", "Natural Language Processing(NLP)"],
+
+    "Data Analysis & Visualization Tools" : [ "MS-Excel", "Seaborn"]
+
+    "Frameworks & Platforms" : [ "Apache Hadoop", "Apache Spark", "TensorFlow/Keras", "PyTorch/TorchVision"]
     
-    "SoftwareTools" : [ "Hadoop", "Spark", "PySpark", "PyTorch/TorchVision", "TensorFlow/Keras", "Jupyter",
-                            "HTML", "CSS", "JavaScript", "Flask", "SAP", "S/4 HANA", "Linux", "Eclipse IDE",
-                                "PostgreSQL", "Docker", "Git/GitHub", "Solidworks", "MS Office" ],
-                                        
+    "SoftwareTools" : [ "Docker", "Git/GitHub", "Flask",  "Solidworks", "MS Office", "Linux", "SAP", "S/4 HANA",
+                          "Eclipse IDE", "SolidWorks", "MS Office"]
+
+    "Currently learning" : ["ES6/Typescript", "AWS Developer Associate"]
+              
     "Security" : [ "Firewalls", "Intrusion Detection Systems", "Encryption", "Networking", "TCP/IP protocols" ]
   }
 ```
@@ -38,8 +50,6 @@ class About(Me):
 <h3 align=center>Connect with me on</h3>
 <p align="center">
   <a href="https://www.linkedin.com/in/praharsh-medisetty-b4944b199/"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/praharsh-medisetty-b4944b199/" alt="LinkedIn"></a>
-  <a href="https://www.leetcode.com/praharshmedisetty"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=LeetCode&logoColor=white&link=https://www.leetcode.com/praharshmedisetty/" alt="LeetCode"></a>
-  <a href="https://www.hackerrank.com/praharsh2001"><img src="https://img.shields.io/badge/-HackerRank-2EC866?style=flat-square&logo=HackerRank&logoColor=white&link=https://www.hackerrank.com/praharsh2001/" alt="HackerRank"></a>
   <a href="https://instagram.com/praharshmedisetty"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=Instagram&logoColor=white&link=https://instagram.com/praharshmedisetty/" alt="Instagram"></a>
   <a href="https://www.youtube.com/channel/UCBo10LtVeYcPWHay-lPZKhg"><img src="https://img.shields.io/badge/-YouTube-FF0000?style=flat-square&logo=YouTube&logoColor=white&link=https://www.youtube.com/c/praharshmedisetty/" alt="YouTube"></a>
 </p>
@@ -64,7 +74,7 @@ class About(Me):
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/>
   <img src="https://pandas.pydata.org//static/img/favicon_white.ico" alt="pandas" width="40" height="40"/>
-  <img src="https://www.motiongraphicplus.com/wp-content/uploads/2023/09/adobe-photoshop-2024-logo.png" alt="photoshop" width="40" height="40"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1200px-Adobe_Photoshop_CC_icon.svg.png" alt="photoshop" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
   <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/>
@@ -74,7 +84,7 @@ class About(Me):
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcMRR3n1lHI-yOBNFL5K4PoaziiQP6m3iEAQ&s" alt="unity" width="40" height="40"/>
   <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/>
 </p>
-
+<!-- https://www.motiongraphicplus.com/wp-content/uploads/2023/09/adobe-photoshop-2024-logo.png -->
 <h4 align=center>I love learning new stuff! Code, Consistency and Coffee go hand in hand! 🌱</h4>
 
 <!---
